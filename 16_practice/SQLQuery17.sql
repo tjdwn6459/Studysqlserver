@@ -1,0 +1,13 @@
+/****** SSMS의 SelectTopNRows 명령 스크립트 ******/
+SELECT [bookidx]
+      ,[cateidx]
+      ,[bookName]
+      ,[author]
+      ,[interpreter]
+      ,[company]
+      ,[releaseDate]
+      ,[ISBN]
+      ,[price]
+      ,[descriptions]
+      ,[regDate]
+  FROM[dbo].[booksTbl]
